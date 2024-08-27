@@ -1,0 +1,352 @@
+{
+    "Artistes" : [
+        [
+             "Kendrick Lamar",
+             "rap",
+             71512071,
+             17,
+             37
+        ],
+
+        [
+             "Drake",
+             "rap",
+             76850379,
+             5,
+             37
+        ],
+
+        [
+             "Eminem",
+             "rap",
+             78417017,
+             15,
+             51
+        ],
+
+        [
+             "Tyler, the Creator",
+             "rap",
+             34099371,
+             2,
+             33
+        ],
+
+        [
+             "Nicki Minaj",
+             "rap",
+             46284409,
+             0,
+             41
+        ],
+
+        [
+             "Snoop Dogg",
+             "rap",
+             28951010,
+             0,
+             52
+        ],
+
+        [
+             "Taylor Swift",
+             "pop",
+             95797623,
+             14,
+             34
+        ],
+
+        [
+             "Micheal Jackson",
+             "pop",
+             44329692,
+             13,
+             50
+        ],
+
+        [
+             "Justin Bieber",
+             "pop",
+             75738339,
+             2,
+             30
+        ],
+
+        [
+             "Katy Perry",
+             "pop",
+             59044582,
+             0,
+             39
+        ],
+
+        [
+             "Sabrina carpenter",
+             "pop",
+             76888075,
+             0,
+             25
+        ],
+
+        [
+             "Ariana Grande",
+             "pop",
+             76699330,
+             2,
+             31
+        ],
+
+        [
+             "Elvis Presley",
+             "rock",
+             24669162,
+             3,
+             42
+        ],
+
+        [
+             "Metallica",
+             "rock",
+             27133976,
+             9,
+             45
+        ],
+
+        [
+             "Pearl Jam",
+             "rock",
+             13549421,
+             1,
+             34
+        ],
+
+        [
+             "Nirvana",
+             "rock",
+             32097650,
+             1,
+             37
+        ],
+
+        [
+             "Aerosmith",
+             "rock",
+             23563791,
+             4,
+             54
+        ],
+
+        [
+             "Guns N' Roses",
+             "rock",
+             31582807,
+             0,
+             39
+        ],
+
+        [
+             "Usher",
+             "R&B",
+             41750805,
+             8,
+             45
+        ],
+
+        [
+             "The Weeknd",
+             "R&B",
+             105200052,
+             4,
+             34
+        ],
+
+        [
+             "Alicia Keys",
+             "R&B",
+             32565042,
+             16,
+             43
+        ],
+
+        [
+             "Brent Fayaz",
+             "R&B",
+             22420314,
+             0,
+             28
+        ],
+
+        [
+             "Destiny Child",
+             "R&B",
+             14160837,
+             2,
+             27
+        ],
+
+        [
+             "SZA",
+             "R&B",
+             67547129,
+             0,
+             34
+        ],
+
+        [
+             "Dolly Parton",
+             "country",
+             23335480,
+             10,
+             78
+        ],
+
+        [
+             "Keith Urban",
+             "country",
+             8076311,
+             4,
+             56
+        ],
+
+        [
+             "Willie Nelson",
+             "country",
+             8420840,
+             12,
+             91
+        ],
+
+        [
+             "Kane Brown",
+             "country",
+             16894091,
+             0,
+             30
+        ],
+
+        [
+             "Darius Rucker",
+             "country",
+             7464555,
+             3,
+             58
+        ],
+
+        [
+             "Jason Aldean",
+             "country",
+             8720142,
+             0,
+             47
+        ]
+
+    ],
+
+    "Albumvendus" : [
+     [
+          "Micheal Jackson",
+          "Thriller",
+          34000000
+     ],
+
+     [
+          "Metallica",
+          "Mettalica",
+          16000000
+     ],
+
+     [
+          "Kendrick Lamar",
+          "DAMN",
+          3137000
+     ],
+
+     [
+          "Drake",
+          "Take Care",
+          6000000
+     ],
+     [
+          "Eminem",
+          "The Marshall Mathers LP",
+          25000000
+     ],
+     [
+          "Nicki Minaj",
+          "Pink Fryday",
+          10394000
+     ],
+     [
+          "Justin Bieber",
+          "Purpose",
+          16578000
+     ],
+     [
+          "Taylor Swift",
+          "1989",
+          14332116
+     ],
+     [
+          "Katy Perry",
+          "Teenage Dream",
+          6000000
+     ],
+     [
+          "Ariana Grande",
+          "Thank U, Next"
+     ],
+     [
+          "Elvis Presley",
+          "Elvis' Christmas Album"
+     ],
+     [
+          "Pearl Jam",
+          "Ten"
+     ]
+    ],    
+
+    "questions" : [
+        [
+            "Parmi ces chansons, quel est la plus ecoutée sur spotify ?",
+            "Parmis ces artistes qui est le plus populaire ?",
+            "Quel est l'album le plus vendu parmis les propositions ?",
+            "Laquelle de ces stars a gangé le plus de Grammys ?",
+            "Parmi ces 4 artistes, lequel est le plus vieux ?"
+        ],
+
+        [
+          "à quel artiste appartient cette voix ?",
+          "à quelle chanson appartient cette mélodie ?",
+          "A qui appartient cette silhouette",
+          "Combien de Grammys a-t-elle empoché ?",
+          "A quel groupe appartient cette photo d'album",
+          "Quel est le nom de cet album ?"
+        ]
+ 
+    ],
+
+    "musics" : [
+        "assets/sounds/2047420.ogg",
+        "assets/sounds/17491283.ogg",
+        "assets/sounds/26763575.ogg",
+        "assets/sounds/55495454.ogg",
+        "assets/sounds/71772133.ogg",
+        "assets/sounds/105719216.ogg",
+        "assets/sounds/108930002.ogg",
+        "assets/sounds/167393946.ogg",
+        "assets/sounds/197026273.ogg",
+        "assets/sounds/251318620.ogg",
+        "assets/sounds/254360546.ogg",
+        "assets/sounds/329252110.ogg",
+        "assets/sounds/330960536.ogg",
+        "assets/sounds/409468447.ogg",
+        "assets/sounds/412858544.ogg",
+        "assets/sounds/618248070.ogg",
+        "assets/sounds/832634588.ogg"
+    ],
+
+    "sounds" : [
+        "assets/sounds/mettreaudebut.ogg",
+        "assets/sounds/sonhover1.ogg"
+    ]
+}

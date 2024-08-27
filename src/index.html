@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>U.S. Music Icons</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="description" content="">
+  <!-- Meta Partage -->
+  <!-- Favicon -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="./styles/app.css">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Alegreya">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC">
+  <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Ultra">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script src="scripts/app.js" defer></script>
+</head>
+<body>
+  <main>
+
+    <header class="navigation">
+        <div class="navigation__lives">
+        </div>
+        <div class="navigation__music">
+          <img src="./assets/images/music.svg" alt="note de musique">
+        </div>
+    </header>
+
+    <section class="home">
+      <div class="home__lights home__lights--left"></div>
+      <div class="home__lights home__lights--right"></div>
+      <div class="home__foreground home__foreground--crowd"></div>
+      <div class="home__foreground home__foreground--spots"></div>
+      <h1 class="home__title title">U.S. Music Icons</h1>
+      <button class="home__button button">Jouer</button>
+
+    </section>
+
+    <section class="intro">
+      <div class="intro__dialog">
+
+
+        <ul class="intro__list">
+            <li class="intro__el intro__el--show grid">
+                <div class="intro__content">
+                    <h2 class="intro__nom intro__nom--présentatrice">Présentatrice</h2>
+                    <p>Bonsoir à tous et bienvenue dans cette 1ère édition de U.S. Music Icons !</p>
+                </div>
+                <img class="intro__img intro__img--presentator" src="./assets/images/presentator.png" alt="présentatrice neutre">
+            </li>
+
+            <li class="intro__el grid">
+                <div class="intro__content">
+                  <h2 class="intro__nom intro__nom--présentatrice">Présentatrice</h2>
+                  <p>Le jeu est très simple. Répondez au un quizz sur des artistes américains correctement et tentez de gagnerle grand prix !</p>
+              </div>
+              <img class="intro__img intro__img--presentator" src="./assets/images/presentator.png" alt="présentatrice neutre">
+            </li>
+
+            <li class="intro__el grid">
+                <div class="intro__content">
+                    <h2 class="intro__nom intro__nom--présentatrice">Présentatrice</h2>
+                    <p>Le challenger d'aujourd'hui sera choisi parmi l'audience. Notre heureux.euse élu.e est...vous là bas</p>
+                </div>
+                <img class="intro__img intro__img--presentator" src="./assets/images/presentator.png" alt="présentatrice neutre">
+            </li>
+            <li class="intro__el grid">
+              <div class="intro__content">
+                  <h2 class="intro__nom intro__nom--présentatrice">Moi</h2>
+                  <p>euh...moi ?</p>
+              </div>
+          </li>
+
+          <li class="intro__el grid">
+            <div class="intro__content">
+                <h2 class="intro__nom intro__nom--présentatrice">Présentatrice</h2>
+                <p>Oui vous ! allez rejoignez nous sur la scène !</p>
+                
+            </div>
+            <img class="intro__img intro__img--presentator" src="./assets/images/presentator.png" alt="présentatrice neutre">
+        </li>
+
+            <li class="intro__el intro__el--last grid">
+                <div class="intro__content">
+                    <h2 class="title">Présentatrice</h2>
+                    <p>"Well then let's start!" comme disent les américains !</p> 
+                </div>
+                <img class="intro__img intro__img--presentator" src="./assets/images/presentator.png" alt="présentatrice neutre">
+            </li>
+        </ul>
+
+    </div>
+    </section>
+
+
+      <section class="picture">
+        
+
+        <div class="picture__picture">
+          <img src="" alt="">
+        </div>
+        <h2 class="picture__question">Question</h2>
+        <input class="picture__input" id="pictureinput" type="text" placeholder="écrit ta réponse ici">
+
+        <button class="picture__confirm button">Valider</button>
+
+      </section>
+
+
+
+      <section class="trueorfalse hidden">
+        <h2 class="trueorfalse__question">Question</h2>
+        <div class="trueorfalse__radio">
+          <div class="trueorfalse__option">
+            <input name="tofradio" value="true" type="radio" class="tofradio">
+            <label for="true" class="toflabel">Vrai</label>
+          </div>
+          <div class="trueorfalse__option">
+            <input name="tofradio" value="false" type="radio" class="tofradio">
+            <label for="false" class="toflabel">Faux</label>
+          </div>
+        </div>
+      </section>
+
+      <section class="multiplechoice hidden">
+        <h2 class="multiplechoice__question">Question</h2>
+          <form class="multipleform" method="post">
+            <div class="multipleform__option multipleform__option--1">
+              <input class="multipleform__input" name="choiceradio" id="1" value="" type="radio">
+              <label class="multipleform__label multipleform__label--1" for="1">proposition1</label>
+            </div>
+            <div class="multipleform__option multipleform__option--2">
+              <input  class="multipleform__input" name="choiceradio" id="2" value="" type="radio">
+              <label class="multipleform__label multipleform__label--2" for="2">proposition2</label>
+            </div>
+            <div class="multipleform__option multipleform__option--3">
+              <input  class="multipleform__input multipleform__input--3" name="choiceradio" id="3" value="" type="radio">
+              <label class="multipleform__label multipleform__label--3" for="3">proposition3</label>
+            </div>
+            <div class="multipleform__option multipleform__option--4">
+              <input  class="multipleform__input" name="choiceradio" id="4" value="" type="radio">
+              <label class="multipleform__label multipleform__label--4" for="4">proposition4</label>
+            </div>
+          </form>
+        </section>
+
+      <section class="thisorthat">
+
+        <div class="sidebyside">
+          <h2 class="thisorthat__question">Question</h2>
+          <div class="sidebyside__left">
+            <input type="radio" id="totradio--1" name="totradio" class="totradio">
+            <label for="totradio--1" class="totradio--1">Nom du film</label>
+          </div>
+          <div class="sidebyside__right">
+            <input type="radio" id="totradio--2" name="totradio" class="totradio">
+            <label for="totradio--2" class="totradio--2">Nom du film</label>
+          </div>
+        </div>
+      </section>
+
+    </section>
+    <section class="youlose">
+      <h2 class="youlose__title">Vous êtes mort...</h2>
+      <p class="youlose__p">votre connaissance n'a pas pu vous sauver</p>
+      
+
+    </section>
+
+    

@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  background-color: grey;
+  overflow: hidden;
+}
+
+.home {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url(../assets/images/Background-landing-page.png) repeat;
+  background-position: center;
+  background-size: cover;
+}
+.home__title {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 3.38em;
+  font-family: "Ultra", sans-serif;
+  color: rgb(255, 174, 0);
+  border: 0.3em;
+  border-color: white;
+  border-style: dotted;
+  padding: 1em;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.2em rgb(134, 49, 0), 0 0 0 0.67em rgb(255, 174, 0), 0 0 0 1em rgb(134, 49, 0);
+  background: linear-gradient(180deg, rgb(41, 55, 255), rgb(0, 174, 255));
+  margin-bottom: 1em;
+}
+.home__lights {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.5;
+}
+.home__lights--left {
+  transform-origin: 0% 100%;
+  background: url(../assets/images/light_left.png) no-repeat;
+  animation: lightsleft 5s infinite;
+}
+@keyframes lightsleft {
+  50% {
+    transform: rotate(55deg);
+  }
+}
+.home__lights--right {
+  transform-origin: 100% 10%;
+  background: url(../assets/images/light_right.png) no-repeat;
+  animation: lightsright 5s infinite;
+}
+@keyframes lightsright {
+  50% {
+    transform: rotate(-55deg);
+  }
+}
+.home__foreground {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+.home__foreground--crowd {
+  background: url(../assets/images/crowd-front-row.png) no-repeat center;
+}
+.home__foreground--spots {
+  background: url(../assets/images/spots-foreground.png);
+}
+
+.navigation {
+  position: absolute;
+  width: 100vw;
+  position: fixed;
+  z-index: 30;
+  height: 3.38em;
+}
+.navigation__music {
+  height: 3.38em;
+}
+.navigation__music img {
+  height: 3.38em;
+}
+
+.button {
+  color: white;
+  font-family: "Ultra", sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 0.67em 1.5em;
+  z-index: 20;
+  margin: 1em;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: linear-gradient(180deg, rgb(41, 55, 255), rgb(0, 174, 255));
+  border-radius: 10%;
+  border-width: 0.44em;
+  border-color: rgb(255, 174, 0);
+  border: linear-gradient(180deg, rgb(134, 49, 0), rgb(255, 174, 0));
+  transition: 0.2s;
+}
+.button:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+  background: linear-gradient(180deg, rgb(134, 49, 0), rgb(255, 174, 0));
+  color: black;
+}
+.button:active {
+  transform: scale(0.99);
+  transition: 0.2s;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
+}
+
+.intro {
+  height: 100vh;
+  width: 100vw;
+  background: url(../assets/images/background__intro.png);
+  background-size: cover;
+}
+.intro__el {
+  position: absolute;
+}
+.intro__content {
+  z-index: 20;
+  position: absolute;
+  align-self: end;
+  background-color: rgb(255, 242, 219);
+  padding: 2.25em;
+  width: 100%;
+  border-radius: 2.25em;
+}
+.intro__img--presentator {
+  height: 95%;
+  align-self: flex-end;
+}
+.intro__img--roundlight {
+  transform-origin: 120% 50%;
+  filter: blur(50%);
+  align-self: center;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+  background-color: rgb(255, 242, 219);
+  animation: turn 3s 4;
+}
+@keyframes turn {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.intro__el .intro__content {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transform: translateX(50px);
+  /*easings.net*/
+  transition: 0.3s ease-out;
+}
+.intro__el .intro__img {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transform: translateX(-50px);
+  transition: 0.3s ease-out;
+}
+.intro__el--show .intro__content, .intro__el--show .intro__img {
+  opacity: 1;
+  pointer-events: all;
+  visibility: visible;
+  transform: translateX(0);
+}
+.intro__form {
+  width: 100vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.intro__input, .intro__label {
+  font-size: 1.5em;
+  padding: 1em;
+}
+.intro__input, .intro__label, .intro__submit {
+  margin: 1em auto;
+  width: 20%;
+}
+
+.hidden {
+  display: none;
+}
+
+.picture {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.picture__question {
+  font-size: 2.25em;
+}
+.picture__input {
+  font-size: 1.5em;
+  padding: 0.67em;
+  margin-bottom: 1em;
+}/*# sourceMappingURL=app.css.map */
